@@ -22,9 +22,13 @@ public class Main {
         //System.out.println(lowercase);
 
         card1.showMoney();
+
         int balance = card1.addMoney(100);
         System.out.println(balance);
+
         card1.showMoney();
+
+        card1.showInfo();
 
     }
 }
